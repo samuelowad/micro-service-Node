@@ -1,0 +1,9 @@
+{
+  "type": "mongodb",
+  "host": "localhost",
+  "database": "micro",
+  "entities": ["src/entity/{*.ts,*.js}"],
+  "cli": { "entitiesDir": "src/entity" },
+  "logging": false,
+  "synchronize": true
+}
